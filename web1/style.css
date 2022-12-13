@@ -4,7 +4,7 @@
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
-  --primary: #155bd5;
+  --primary: #a2dbdd;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
@@ -487,7 +487,7 @@ p {
   display: flex;
   align-items: center;
   padding: 11px 16px;
-  color: var(--white);
+  color: var(--black);
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
@@ -1906,7 +1906,7 @@ p {
   background-color: var(--primary-dark);
 }
 .avatar {
-  width: 150px;
-  height: 75px;
-  clip-path: circle(70px at 50% 100%);
+  width: 100px;
+  height: 50px;
+  clip-path: circle(50px at 50% 100%);
 }
